@@ -1,14 +1,14 @@
-#Euereka
-	### Wat is eureka?
-	Eureka is een REST (Representational State Transfer) service. Voornamelijk bedoeld voor het ontdekken/vinden van andere services en load balancing / failover van servers.
+# Euereka
+### Wat is eureka?
+Eureka is een REST (Representational State Transfer) service. Voornamelijk bedoeld voor het ontdekken/vinden van andere services en load balancing / failover van servers.
 	
-	More basic info can be found [here] (https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance)
+More basic info can be found [here] (https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance)
 	
-	![Screenshot](jeaMicro.png)
+![Screenshot](jeaMicro.png)
 	
 ## Architectuur
 	
-	![Screenshot](JEA_MICRO.png)
+![Screenshot](JEA_MICRO.png)
 
 ### Services
 De drie services die ik gemaakt heb zijn.
@@ -41,9 +41,9 @@ Zo hebben ze allemaal hun eigen domain models waarbij locations deze ook heeft.
 	2. Regions only know what is in their own instance.
 	
 ### Security
-	Het beveiligen van de REST calls kun je doen met een SSL certificaat. Hiermee bescherm je jezelf tegen man in the middle attacks. Daarnaast heeft de Eureka server een ingebouwde security systeem, die je makkelijk met een wachtwoord en username kunt configureren. Een andere optie is ook 0Auth, dit zit ingebouwd in spring-cloud.
+Het beveiligen van de REST calls kun je doen met een SSL certificaat. Hiermee bescherm je jezelf tegen man in the middle attacks. Daarnaast heeft de Eureka server een ingebouwde security systeem, die je makkelijk met een wachtwoord en username kunt configureren. Een andere optie is ook 0Auth, dit zit ingebouwd in spring-cloud.
 	
 ### Scaling
 
-	Scaling kun je doen door meerdere instanties te draaien van Eureka servers. Door middel van een cluster kun je je services automatisch verbinden met de minsts drukke server. 
+Scaling kun je doen door meerdere instanties te draaien van Eureka servers. Door middel van een cluster kun je je services automatisch verbinden met de minsts drukke server. 
 	
