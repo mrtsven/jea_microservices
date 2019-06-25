@@ -4,7 +4,7 @@ Eureka is een REST (Representational State Transfer) service. Voornamelijk bedoe
 	
 More basic info can be found [here](https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance)
 	
-![Screenshot](jeamicro.PNG)
+![Screenshot](jeaMicro.PNG)
 	
 ## Architectuur
 	
