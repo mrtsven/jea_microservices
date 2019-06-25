@@ -2,13 +2,13 @@
 ### Wat is eureka?
 Eureka is een REST (Representational State Transfer) service. Voornamelijk bedoeld voor het ontdekken/vinden van andere services en load balancing / failover van servers.
 	
-More basic info can be found [here] (https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance)
+More basic info can be found [here](https://github.com/Netflix/eureka/wiki/Eureka-at-a-glance)
 	
-![Screenshot](jeaMicro.png)
+![Screenshot](jeamicro.png)
 	
 ## Architectuur
 	
-![Screenshot](JEA_MICRO.png)
+![Screenshot](arch.png)
 
 ### Services
 De drie services die ik gemaakt heb zijn.
