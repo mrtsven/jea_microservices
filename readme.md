@@ -8,7 +8,7 @@ More basic info can be found [here](https://github.com/Netflix/eureka/wiki/Eurek
 	
 ## Architectuur
 	
-![Screenshot](arch.png)
+![Screenshot](arch.PNG)
 
 ### Services
 De drie services die ik gemaakt heb zijn.
